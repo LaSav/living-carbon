@@ -1,10 +1,20 @@
 body {
-    font-family: 'Oxygen', sans-serif;
-    font-size: large;
+  font-family: 'Oxygen', sans-serif;
+  font-size: large;
 }
 
 .index-banner {
-  background-image: url('images/coast.jpg');
+background-image: url('images/coast.jpg');
+height: 250px;
+width: 100%;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+}
+
+.contact-banner {
+  background-image: url('images/bubble.jpg');
   height: 250px;
   width: 100%;
   background-position: center;
@@ -13,170 +23,176 @@ body {
   position: relative;
 }
 
-.contact-banner {
-    background-image: url('images/bubble.jpg');
-    height: 250px;
-    width: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-  }
-
-  .projects-banner {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/trees.jpg');
-    height: 250px;
-    width: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-  }
+.projects-banner {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/trees.jpg');
+  height: 250px;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
 
 .satellite-banner {
-    background-image: url('images/satellite.jpg');
-    height: 250px;
-    width: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-  }
+  background-image: url('images/satellite.jpg');
+  height: 250px;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
 
-  .about-masthead {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/plant.jpg');
-    background-position: center;
-    width: 100%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    color: white;
-  }
+.about-masthead {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/plant.jpg');
+  background-position: center;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  color: white;
+}
 
-  .projects-masthead {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('images/forest.jpg');
-    background-position: center;
-    width: 100%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    color: white;
-  }
+.projects-masthead {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('images/forest.jpg');
+  background-position: center;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  color: white;
+}
 
-  .team-masthead {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/earth.jpg');
-    background-position: center;
-    width: 100%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    color: white;
-  }
+.team-masthead {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/earth.jpg');
+  background-position: center;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  color: white;
+}
 
-  .contact-masthead {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('images/birds.jpg');
-    background-position: center;
-    width: 100%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    color: white;
-  }
+.contact-masthead {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('images/birds.jpg');
+  background-position: center;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  color: white;
+}
 
-  .navbar {
-    background-color: #F6EFE8;
-    color: black;
-    font-size: medium;
-  }
+.navbar {
+  background-color: #F6EFE8;
+  color: black;
+  font-size: medium;
+}
 
-  footer {
-    font-size: medium;
-  }
+footer {
+  font-size: medium;
+}
 
-  .btn {
-    border-radius: 0%;
-  }
+.btn {
+  border-radius: 0%;
+}
 
-  #green-button {
-    color:#23d5ab;
-    border: solid #23d5ab 1px;
-  }
+#green-button {
+  color:#23d5ab;
+  border: solid #23d5ab 1px;
+}
 
-  #green-button:hover {
-    color: white;
-    background-color: #23d5ab;
-  }
+#green-button:hover {
+  color: white;
+  background-color: #23d5ab;
+}
 
-  .headline {
-    font-family: 'Oxygen', sans-serif;
-    font-size: 10vh;
-    font-weight: 700;
-    color: white;
-  }
+.headline {
+  font-family: 'Oxygen', sans-serif;
+  font-size: 10vh;
+  font-weight: 700;
+  color: white;
+}
 
-  .lead {
-    font-family: 'Oxygen', sans-serif;
-    font-size: 4vh;
-    color: white;
-  }
-
-
-  .title:after {
-    content: "";
-    display: block;
-    width: 40%;
-    padding-top: 3px;
-    border-bottom: 4px solid #23d5ab;
-  }
-
-  .index-title:after {
-    content: "";
-    display: block;
-    width: 10%;
-    padding-top: 3px;
-    border-bottom: 4px solid #23d5ab;
-  }
-
-  .secondary-title {
-    color: #23a6d5;
-  }
-
-  .a-project {
-    color: black;
-    text-decoration: none;
-  }
-
-  .a-project:hover {
-    color: #23d5ab;
-  }
-
-  .region {
-    stroke: black;
-  }
+.lead {
+  font-family: 'Oxygen', sans-serif;
+  font-size: 4vh;
+  color: white;
+}
 
 
-  .index-masthead {
-	background: radial-gradient( #23a6d5, #23d5ab, #00A36C);
-	background-size: 400% 400%;
-	animation: gradient 15s ease infinite;
-	height: 100vh;
+.title:after {
+  content: "";
+  display: block;
+  width: 40%;
+  padding-top: 3px;
+  border-bottom: 4px solid #23d5ab;
+}
+
+.index-title:after {
+  content: "";
+  display: block;
+  width: 10%;
+  padding-top: 3px;
+  border-bottom: 4px solid #23d5ab;
+}
+
+.overline:before {
+  content: "";
+  display: block;
+  width: 85%;
+  padding-bottom: 3px;
+  border-bottom: 3px solid #23d5ab;
+}
+
+/* .overline:after {
+  content: "";
+  display: block;
+  width: 75%;
+  padding-top: 3px;
+  border-bottom: 3px solid #23d5ab;
+} */
+
+.secondary-title {
+  color: #23a6d5;
+}
+
+.a-project {
+  color: black;
+  text-decoration: none;
+}
+
+.a-project:hover {
+  color: #23d5ab;
+}
+
+.region {
+  stroke: black;
+}
+
+
+.index-masthead {
+background: radial-gradient( #23a6d5, #23d5ab, #00A36C);
+background-size: 400% 400%;
+animation: gradient 15s ease infinite;
+height: 100vh;
 }
 
 .project-masthead {
-	background: radial-gradient( #23a6d5, #23d5ab, #00A36C);
-	background-size: 400% 400%;
-	animation: gradient 15s ease infinite;
-	height: 100vh;
+background: radial-gradient( #23a6d5, #23d5ab, #00A36C);
+background-size: 400% 400%;
+animation: gradient 15s ease infinite;
+height: 100vh;
 }
 
 @keyframes gradient {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
+0% {
+  background-position: 0% 50%;
+}
+50% {
+  background-position: 100% 50%;
+}
+100% {
+  background-position: 0% 50%;
+}
 }
